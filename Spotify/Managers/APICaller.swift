@@ -93,7 +93,7 @@ final class APICaller {
                 
                 do {
                     let result = try JSONDecoder().decode(RecommendationsResponse.self, from: data)
-                    print(result)
+//                    print(result)
                     completion(.success(result))
                 } catch {
                     completion(.failure(error))
