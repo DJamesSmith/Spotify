@@ -71,6 +71,7 @@ final class PlaylistHeaderCollectionReusableView: UICollectionReusableView {
         fatalError()
     }
     
+    // MARK: didTapPlayAll
     @objc private func didTapPlayAll() {
         delegate?.PlaylistHeaderCollectionReusableViewDidTapPlayAll(self)
     }
