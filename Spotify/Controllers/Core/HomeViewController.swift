@@ -82,7 +82,7 @@ class HomeViewController: UIViewController {
         group.enter()
         group.enter()
         group.enter()
-        print("Start fetching data")
+//        print("Start fetching data")
         
         var newReleases: NewReleasesResponse?
         var featuredPlaylist: FeaturedPlaylistsResponse?
@@ -148,7 +148,7 @@ class HomeViewController: UIViewController {
                   let tracks = recommendations?.tracks else {
                 return
             }
-            print("Configuring viewModels")
+//            print("Configuring viewModels")
             
             self.configureModels(newAlbums: newAlbums, playlists: playlists, tracks: tracks)
         }
