@@ -81,4 +81,5 @@ extension CategoryViewController: UICollectionViewDelegate, UICollectionViewData
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
     }
+    
 }
