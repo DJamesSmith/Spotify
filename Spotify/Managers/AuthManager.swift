@@ -169,7 +169,7 @@ final class AuthManager {
                 let result = try JSONDecoder().decode(AuthResponse.self, from: data)
                 self?.onRefreshBlocks.forEach { $0(result.access_token) }
                 self?.onRefreshBlocks.removeAll()
-                print("Token successfully refreshed")
+//                print("Successfully refreshed")
                 self?.cacheToken(result: result)
                 completion?(true)
             } catch {
