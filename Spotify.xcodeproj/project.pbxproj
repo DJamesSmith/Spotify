@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2403D1542A0D061B00302F76 /* LibraryAlbumsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403D1532A0D061B00302F76 /* LibraryAlbumsResponse.swift */; };
 		2433EC942A036E0500033E8C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2433EC932A036E0500033E8C /* Extensions.swift */; };
 		24429FDB2A08F395002DD780 /* SearchResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24429FDA2A08F395002DD780 /* SearchResultResponse.swift */; };
 		24429FDD2A08F65F002DD780 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24429FDC2A08F65F002DD780 /* SearchResult.swift */; };
@@ -72,6 +73,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2403D1532A0D061B00302F76 /* LibraryAlbumsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryAlbumsResponse.swift; sourceTree = "<group>"; };
 		2433EC932A036E0500033E8C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		24429FDA2A08F395002DD780 /* SearchResultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultResponse.swift; sourceTree = "<group>"; };
 		24429FDC2A08F65F002DD780 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				24429FDA2A08F395002DD780 /* SearchResultResponse.swift */,
 				24429FDC2A08F65F002DD780 /* SearchResult.swift */,
 				249F44162A0B8A5800543927 /* LibraryPlaylistsResponse.swift */,
+				2403D1532A0D061B00302F76 /* LibraryAlbumsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -480,6 +483,7 @@
 				24C09E592A08B28100104365 /* AllCategoriesResponse.swift in Sources */,
 				24C09E512A08737A00104365 /* TitleHeaderCollectionReusableView.swift in Sources */,
 				247A81712A077AD700939918 /* AlbumViewController.swift in Sources */,
+				2403D1542A0D061B00302F76 /* LibraryAlbumsResponse.swift in Sources */,
 				24429FDB2A08F395002DD780 /* SearchResultResponse.swift in Sources */,
 				247A81792A07A91D00939918 /* PlaylistHeaderViewViewModel.swift in Sources */,
 				246E856B2A033F97001DDF70 /* WelcomeViewController.swift in Sources */,
